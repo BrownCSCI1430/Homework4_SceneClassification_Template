@@ -3,7 +3,7 @@
 .idea
 
 venv
-results/*
+code/results_webpage
 
 # LaTeX files
 *.synctex.gz
