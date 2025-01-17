@@ -527,14 +527,16 @@ You can take either the one vs.~all (or one vs.~others) approach or the one vs.~
 \pagebreak
 \begin{tcolorbox}[enhanced jigsaw,breakable,pad at break*=1mm,colback=white!5!white,colframe=green!75!black,height fixed for=all]
 \begin{python}
-# Inputs
+# Inputs and Outputs for binary classifier
+# Inputs:
 #   train_feats: N x d matrix of N features each d descriptor long
 #   train_labels: N x 1 array containing values of either -1 
 #               (class 0) or 1 (class 1)
 #   test_feat: 1 x d image for which we wish to predict a label
 #
-#   Outputs: -1 (class 0) or 1 (class 1)
+# Outputs: -1 (class 0) or 1 (class 1)
 #
+# Inputs and Outputs for multi-class classifier from 0 to k - 1
 # Inputs:
 #    As before, except
 #    train_labels: N x 1 array of class label integers from 0 to k-1
