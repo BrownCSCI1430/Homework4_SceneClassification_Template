@@ -3,6 +3,7 @@
 .idea
 
 venv
+.venv
 code/results_webpage
 
 # LaTeX files
